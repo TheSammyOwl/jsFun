@@ -39,10 +39,10 @@ JavaScript can create new HTML events in the page -->
 	<p>Here's a number and a random word:</p>
 	<!-- document.write is great for testing-->
 	<script>
-		document.write(5 + 7);
+		document.write(6+ 10);
 	</script>
 	<script>
-		document.write('potato');
+		document.write('Potaato');
 	</script>
 
 	<br>
@@ -58,7 +58,7 @@ JavaScript can create new HTML events in the page -->
   <br>
   <br>
 	<!-- Why should we only use document.write for testing? Using document.write() after an HTML document is fully loaded will delete all existing HTML!-->
-	<button onclick="document.write(40 + 9)">Push me to delete everything but the number  49</button>
+	<button onclick="document.write('Samuel')">Push me to delete everything but the thing</button>
 
 	<!-- OH NOES! Better reload the browser! But First:-->
 
@@ -93,11 +93,13 @@ JavaScript can create new HTML events in the page -->
 		document.getElementById('demo').innerHTML = 3 + 5;
 	</script>
 
-<!-- TO DO: Make "My name is" + your name and "My birthday is" + your birthday appear on the page. 
-	***HINT: Remember, Javascript can only parse words when they are in 'string' format!!!***-->
-
-	<!-- YOUR CODE GOES HERE!  -->
-
+<!-- TO DO: Make "My name is" + your name and "My birthday is" + your birthday appear on the  page. 
+	***HINT: Remember, Javascript can only parse words when they are in 'string' format!!!***
+- YOUR CODE GOES HERE!  -->
+<script> 
+    document.write('Sam' + 'February 7')
+    </script>
+    
 
 	<!-- BACK TO THE ASSIGNMENT!  -->
   <br>
@@ -106,12 +108,12 @@ JavaScript can create new HTML events in the page -->
 	<h3>Using window.alert</h3>
 	<p>Check out the code for this part!</p>
 
-	<!-- Uncomment the following three lines of code (using the command + / keys) to see how to make an alert pop up! -->
+	<!-- Uncomment the following three lines of code (using the command + / keys) to see how to  make an alert pop up! -->
 
-<!-- <script>
-window.alert(5 + 6);
+<script>
+window.alert('Samuel is' + 'the best');
 </script>
--->
+
 
 <!-- TO DO: Make "Hi! My name is" + your name appear in an alert from the page. 
 	***HINT: Remember, Javascript can only parse words when they are in 'string' format...d even punctuation (like quotation marks) must be inside of single quotes!!!***-->
@@ -138,11 +140,11 @@ window.alert(5 + 6);
 
  <img id="image" src="images/smiley.gif" width="160" height="120">
 
-<!-- <script>
+ <script>
 document.getElementById("image").src = "images/landscape.jpg";
 </script>
 
-<p>The original image was smiley.gif, but the script changed it to landscape.jpg</p> -->
+<p>The original image was smiley.gif, but the script changed it to landscape.jpg</p> 
 <br>
 <br>
 
@@ -169,7 +171,9 @@ var pictureChange = function() {
 <!-- TO DO: 
 Find two images, and make your own picture switcher below
 -->
-
+<script> 
+    var pictureChange = function() ( document.getElementById )
+    
 <!-- YOUR CODE GOES HERE!  -->
 
 
